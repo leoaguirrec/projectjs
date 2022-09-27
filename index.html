@@ -8,6 +8,34 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <script src="arrays.js"></script>
+    <header>
+        <h1>Hola Mundo!</h1>
+    </header> 
+    <main class="main">
+        <h2 id="tituloPagina">Contactenos</h2>
+        <form action="#">
+            <fieldset class="formulario">
+                <legend>Complete con sus datos</legend>
+                <label class="nombre">
+                    Nombre:
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre" />
+                </label>
+                <label class="apellido">
+                    Apellido:
+                    <input type="text" name="apellido" placeholder="Escribe tu apellido" />
+                </label>
+                <label class="email">
+                    Email:
+                    <input type="email" name="email" placeholder="Escribe tu email" />
+                </label></br>
+                <textarea placeholder="Escriba un comentario..."></textarea>
+            </fieldset>
+            <form action="#">
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpiar datos ingresados" />
+            </form>
+        </form>
+    </main>   
+    <script src="dom.js"></script>
 </body>
 </html>
